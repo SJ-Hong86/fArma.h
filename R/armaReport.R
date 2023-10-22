@@ -508,7 +508,7 @@ plot.fARMA <-
         "QQ Plot of Residuals",
         "Ljung-Box p Values"),
       plotFUN = c(
-        ".plot.arma.1",  ".plot.arma.2",  ".plot.arma.3", ".plot.arma.4"),
+        ".plotarma1",  ".plotarma2",  ".plotarma3", ".plotarma4"),
       which = which)
 
     # Return Value:
@@ -519,7 +519,7 @@ plot.fARMA <-
 # ------------------------------------------------------------------------------
 #' @export
 
-.plot.arma.1 <-
+.plotarma1 <-
   function(x, ...)
   {
     # 1. Standardized Residuals Plot:
@@ -537,7 +537,7 @@ plot.fARMA <-
 # ------------------------------------------------------------------------------
 #' @export
 
-.plot.arma.2 <-
+.plotarma2 <-
   function(x, ...)
   {
     # 2. ACF of Residuals:
@@ -551,7 +551,7 @@ plot.fARMA <-
 # ------------------------------------------------------------------------------
 #' @export
 
-.plot.arma.3 <-
+.plotarma3 <-
   function(x, ...)
   {
     # 3. QQ Plot of Residuals:
@@ -571,7 +571,7 @@ plot.fARMA <-
 # ------------------------------------------------------------------------------
 #' @export
 
-.plot.arma.4 <-
+.plotarma4 <-
   function(x, ...)
   {
     # 4. Ljung-Box p Values:
