@@ -1,0 +1,16 @@
+Package: fArma.h
+Title: Modelling ARMA Time Series Processes
+Version: 0.0.0.9000
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Modelling ARMA Time Series Processes.
+Depends: R (>= 2.15.1), timeDate, timeSeries, fBasics
+Imports: methods, grDevices, graphics, stats, utils
+Suggests: RUnit, tcltk
+LazyData: yes
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
